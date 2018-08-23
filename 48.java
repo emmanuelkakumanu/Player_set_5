@@ -1,5 +1,3 @@
-/* package whatever; // don't place package name! */
-
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -23,6 +21,8 @@ class Ideone
 		}
 		if(st)
 		System.out.print(fa[0]);
+		else
+		System.out.print(a);
 		for(int i=1;i<j;i++)
 		System.out.print(" "+fa[i]);
 	}
