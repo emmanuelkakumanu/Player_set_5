@@ -8,14 +8,14 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner s=new Scanner(System.in);
-		long n=s.nextInt();
+		long n=s.nextLong();
 		if(n>=-2147483648 && n<=2147483647)
 		{
 			System.out.print("INT");
 		}
 		else
 		{
-			System.out.print("LONG");
+			System.out.print("LONG LONG");
 		}
 	}
 }
